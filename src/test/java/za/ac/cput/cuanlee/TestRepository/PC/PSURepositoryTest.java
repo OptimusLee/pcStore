@@ -18,7 +18,7 @@ import za.ac.cput.cuanlee.repository.PC.PSURepository;
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
 public class PSURepositoryTest extends AbstractTestNGSpringContextTests {
-    private Long id;
+    /*private Long id;
     private PSUFactory factory;
 
     @Autowired
@@ -57,7 +57,7 @@ public class PSURepositoryTest extends AbstractTestNGSpringContextTests {
         PSU updatedPSu = repository.findOne(id);
 
         Assert.assertEquals("Cuan Code", updatedPSu.getCode());
-    }
+    }*/
 
     //@Test(dependsOnMethods = "testUpdate")
     //public void testDelete() throws Exception {

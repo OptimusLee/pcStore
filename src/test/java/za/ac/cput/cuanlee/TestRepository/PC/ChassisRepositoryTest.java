@@ -18,7 +18,7 @@ import za.ac.cput.cuanlee.repository.PC.ChassisRepository;
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
 public class ChassisRepositoryTest extends AbstractTestNGSpringContextTests {
-    private Long id;
+    /*private Long id;
     private ChassisFactory factory;
 
     @Autowired
@@ -57,7 +57,7 @@ public class ChassisRepositoryTest extends AbstractTestNGSpringContextTests {
         Chassis updatedChassis = repository.findOne(id);
 
         Assert.assertEquals("Cuan Code", updatedChassis.getCode());
-    }
+    }*/
 
    // @Test(dependsOnMethods = "testUpdate")
    // public void testDelete() throws Exception {

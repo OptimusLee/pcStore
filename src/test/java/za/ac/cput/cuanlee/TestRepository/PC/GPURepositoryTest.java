@@ -18,7 +18,7 @@ import za.ac.cput.cuanlee.repository.PC.GPURepository;
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
 public class GPURepositoryTest extends AbstractTestNGSpringContextTests {
-    private Long id;
+    /*private Long id;
     private GPUFactory factory;
 
     @Autowired
@@ -57,7 +57,7 @@ public class GPURepositoryTest extends AbstractTestNGSpringContextTests {
         GPU updatedGPU = repository.findOne(id);
 
         Assert.assertEquals("Cuan Code", updatedGPU.getCode());
-    }
+    }*/
 
     //@Test(dependsOnMethods = "testUpdate")
     ///public void testDelete() throws Exception {

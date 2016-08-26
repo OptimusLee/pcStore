@@ -18,7 +18,7 @@ import za.ac.cput.cuanlee.repository.PC.CPURepository;
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
 public class CPURepositoryTest extends AbstractTestNGSpringContextTests {
-    private Long id;
+    /*private Long id;
     private CPUFactory factory;
 
     @Autowired
@@ -57,7 +57,7 @@ public class CPURepositoryTest extends AbstractTestNGSpringContextTests {
         CPU updatedCPU = repository.findOne(id);
 
         Assert.assertEquals("Cuan Code", updatedCPU.getCode());
-    }
+    }*/
 
     //@Test(dependsOnMethods = "testUpdate")
     //public void testDelete() throws Exception {

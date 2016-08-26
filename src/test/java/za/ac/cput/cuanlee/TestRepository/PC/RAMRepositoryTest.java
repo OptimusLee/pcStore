@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
 public class RAMRepositoryTest extends AbstractTestNGSpringContextTests {
-    private Long id;
+    /*private Long id;
     private RAMFactory factory;
 
     @Autowired
@@ -59,7 +59,7 @@ public class RAMRepositoryTest extends AbstractTestNGSpringContextTests {
         RAM updatedRAM = repository.findOne(id);
 
         Assert.assertEquals("Cuan Code", updatedRAM.getCode());
-    }
+    }*/
 
     //@Test(dependsOnMethods = "testUpdate")
     //public void testDelete() throws Exception {

@@ -18,7 +18,7 @@ import za.ac.cput.cuanlee.repository.PC.MotherboardRepository;
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
 public class MotherboardRepositoryTest extends AbstractTestNGSpringContextTests {
-    private Long id;
+    /*private Long id;
     private MotherboardFactory factory;
 
     @Autowired
@@ -57,7 +57,7 @@ public class MotherboardRepositoryTest extends AbstractTestNGSpringContextTests 
         Motherboard updatedMobo = repository.findOne(id);
 
         Assert.assertEquals("Cuan Code", updatedMobo.getCode());
-    }
+    }*/
 
  //   @Test(dependsOnMethods = "testUpdate")
   //  public void testDelete() throws Exception {
