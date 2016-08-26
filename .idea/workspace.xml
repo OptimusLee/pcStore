@@ -99,16 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stop" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/stop">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,21 +109,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeRepositoryTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmployeeRepositoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/Employee/EmployeeRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15671642" vertical-offset="54" max-vertical-offset="1278">
+            <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1278">
               <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.xml">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/cuanlee/api/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HDDRepositoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/PC/HDDRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6474908" vertical-offset="371" max-vertical-offset="1188">
+              <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -184,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestDomain/PC/TestChassisFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestDomain/PC/TestCPUFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/TestRepositorySuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/PC/HDDRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/cuanlee/api/PC/HDDController.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/cuanlee/services/PC/Impl/HDDServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/cuanlee/api/PC/GPUController.java" />
@@ -206,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/PC/MotherboardRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/PC/RAMRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/PC/PSURepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/PC/HDDRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -1263,7 +1263,7 @@
       <workItem from="1471936995635" duration="28000" />
       <workItem from="1471937439321" duration="1423000" />
       <workItem from="1471939266920" duration="45000" />
-      <workItem from="1472222113868" duration="1607000" />
+      <workItem from="1472222113868" duration="1843000" />
     </task>
     <task id="LOCAL-00001" summary="Intial Commit">
       <created>1471893899597</created>
@@ -1307,7 +1307,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68885000" />
+    <option name="totallyTimeSpent" value="69121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1335,7 +1335,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3401728" sideWeight="0.5142232" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3343983" sideWeight="0.49425286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3343983" sideWeight="0.49425286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34451544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1419,37 +1419,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/cuanlee/services/PC/Impl/RAMServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1278">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#653#654#0" expanded="false" />
-            <element signature="e#705#706#0" expanded="false" />
-            <element signature="e#753#754#0" expanded="false" />
-            <element signature="e#1669#1670#0" expanded="false" />
-            <element signature="e#1707#1708#0" expanded="false" />
-            <element signature="e#1752#1753#0" expanded="false" />
-            <element signature="e#1790#1791#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestDomain/TestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/PC/HDDRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1835,8 +1808,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/Employee/EmployeeRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15671642" vertical-offset="54" max-vertical-offset="1278">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1278">
           <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/cuanlee/api/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/cuanlee/TestRepository/PC/HDDRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6474908" vertical-offset="371" max-vertical-offset="1188">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding />
         </state>
       </provider>

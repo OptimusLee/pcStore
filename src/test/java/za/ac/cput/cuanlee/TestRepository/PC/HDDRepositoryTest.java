@@ -19,7 +19,7 @@ import za.ac.cput.cuanlee.repository.PC.HDDRepository;
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
 public class HDDRepositoryTest extends AbstractTestNGSpringContextTests {
-    private Long id;
+    /*private Long id;
     private HDDFactory factory;
 
     @Autowired
@@ -59,7 +59,7 @@ public class HDDRepositoryTest extends AbstractTestNGSpringContextTests {
         HDD updatedHdd = repository.findOne(id);
 
         Assert.assertEquals("Cuan Code", updatedHdd.getCode());
-    }
+    }*/
 
     //@Test(dependsOnMethods = "testUpdate")
     //public void testDelete() throws Exception {
