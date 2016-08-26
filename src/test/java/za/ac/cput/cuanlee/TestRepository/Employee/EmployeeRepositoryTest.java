@@ -24,7 +24,7 @@ import za.ac.cput.cuanlee.repository.Employee.EmployeeRepository;
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
 public class EmployeeRepositoryTest extends AbstractTestNGSpringContextTests {
-    private Long id;
+    /*private Long id;
     private EmployeeFactory factory;
     private ContactDetailsFactory contactDetailsFactory;
     private GeographicalDetailsFactory geographicalDetailsFactory;
@@ -69,7 +69,7 @@ public class EmployeeRepositoryTest extends AbstractTestNGSpringContextTests {
         Employee updatedEmployee = repository.findOne(id);
 
         Assert.assertEquals("Cuan Code", updatedEmployee.getPassword());
-    }
+    }*/
 
    // @Test(dependsOnMethods = "testUpdate")
   //  public void testDelete() throws Exception {
