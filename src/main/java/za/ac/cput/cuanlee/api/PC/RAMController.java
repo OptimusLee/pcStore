@@ -94,13 +94,13 @@ public class RAMController {
     }
 
     //------------------- Delete a Story --------------------------------------------------------
-    @RequestMapping(value = "/ram/{id}", method = RequestMethod.DELETE)
-    public ResponseEntity<RAM> deleteRAM(@PathVariable("id") long id) {
+    @RequestMapping(value = "/ram/{id}", method = RequestMethod.PUT)
+    public ResponseEntity<RAM> deleteRAM(@PathVariable("id") long id, @RequestBody RAM ramPar) {
         RAM ram = service.getById(id);
         if (ram == null) {
             return new ResponseEntity<RAM>(HttpStatus.NOT_FOUND);
         }
         service.delete(ram);
-        return new ResponseEntity<RAM>(HttpStatus.NO_CONTENT);
+        return new ResponseEntity<RAM>(HttpStatus.OK);
     }
 }
