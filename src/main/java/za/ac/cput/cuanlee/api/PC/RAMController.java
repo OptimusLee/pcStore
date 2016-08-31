@@ -94,7 +94,7 @@ public class RAMController {
     }
 
     //------------------- Delete a Story --------------------------------------------------------
-    @RequestMapping(value = "/ram/{id}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/ram/delete/{id}", method = RequestMethod.PUT)
     public ResponseEntity<RAM> deleteRAM(@PathVariable("id") long id, @RequestBody RAM ramPar) {
         RAM ram = service.getById(id);
         if (ram == null) {
